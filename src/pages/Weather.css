@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    background-size: cover; 
+    background-image: url(https://afriwx.co.za/satellite/animated-satellite/natural-color-rgb-animated-satellite-southern-africa/natural-color-rgb-animated-satellite-southern-africa.gif);
+}
+#card{
+    width: 30rem;
+    text-align: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    background-color: rgba(230, 230, 230, 0.297);
+    padding: 10px;
+    text-shadow: 2px 1px 5px rgb(0, 0, 0);
+    border-radius: 10px; 
+}
+h1{
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+.card-title{
+    font-family: "Titillium Web", sans-serif;
+}
+.output{
+    font-family: "Titillium Web", sans-serif;
+}
+.input-button{
+    border-radius: 10px;
+    border: 0px solid black;
+    padding: 10px;
+    font-size: large;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgba(50, 50, 50, 0.605);
+}
+#input-box{
+    border-radius: 10px;
+    border: 0px solid black;
+    padding: 10px;
+    font-size: large;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.507);
+}
